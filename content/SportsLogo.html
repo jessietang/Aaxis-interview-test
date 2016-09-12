@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/SportsLogo.css"/>
+    <script src="../js/lib/jquery-1.11.2.js"></script>
+    <script src="../js/SportsLogo.js"></script>
+</head>
+<body>
+    <div class="Sports-main">
+        <header class="sportsHead"></header>
+        <div class="sportContent">
+            <div class="contentTop">
+                <div class="topOne clearfix">
+                    <div class="logo">
+                        <img src="../data/logo.png" alt=""/>
+                    </div>
+                    <div class="search-box">
+                        <input class="searchText" type="text" placeholder="Search"/>
+                        <input class="searchButton" type="button" value="Search"/>
+                    </div>
+                </div>
+                <div class="topTwo clearfix">
+                    <div class="store">
+                        <img src="../data/store.png" alt=""/>
+                    </div>
+                    <ul class="storeUl">
+                        <li><a href="">Sing in</a></li>
+                        <li><a href="">Register</a></li>
+                        <li><a href="">My Account</a></li>
+                        <li><a href="javascript:void(0);">Language:
+                            <select>
+                                <option>english</option>
+                                <option>chinese</option>
+                                <option>Japan</option>
+                            </select>
+                        </a></li>
+                        <li><a href="javascript:void(0);">Country:
+                            <select >
+                                <option>US</option>
+                                <option>US</option>
+                                <option>US</option>
+                            </select>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="topThree clearfix">
+                    <ul class="checkout">
+                        <li><a href="">Checkout</a></li>
+                        <li class="cart"><a href="">Cart</a>
+                            <!--2.点击cart,在cart下面缓慢的滑出一个弹出层-->
+                            <div class="cartPop">我是购物车cart</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--导航-->
+            <nav class="sportsNav">
+                <ul class="sportsNavUl">
+                    <li><a href="javascript:void(0);">Men Clothing</a></li>
+                    <li class="currentNav"><a href="javascript:void(0);">Women Clothing</a></li>
+                    <li><a href="javascript:void(0);">Men Shoes</a>
+                        <!--下拉菜单-->
+                        <ul class="xiala">
+                            <li><a href="javascript:void(0);">tv shoes</a></li>
+                            <li><a href="javascript:void(0);">tj shoes</a></li>
+                            <li><a href="javascript:void(0);">xiayu shoes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);">Women Shoes</a></li>
+                    <li><a href="javascript:void(0);">Kid Clothing</a></li>
+                    <li><a href="javascript:void(0);">Kid Shoes</a>
+                        <!--下拉菜单-->
+                        <ul class="xiala">
+                            <li><a href="javascript:void(0);">tv shoes</a></li>
+                            <li><a href="javascript:void(0);">tj shoes</a></li>
+                            <li><a href="javascript:void(0);">xiayu shoes</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--图片及内容介绍-->
+            <div class="mainContent clearfix">
+                <div class="mainContentL">
+                    <div class="mainContentL-detail">
+                        <div class="bigImg">
+                            <img src="../data/big.png" alt=""/>
+                            <div class="toBig"></div>
+                        </div>
+
+                        <!--（4）pop-up-->
+                        <div class="viewBig"></div>
+                        <!--（6）右边显示大图层-->
+                        <div class="viewBigR">
+                            <img src="../data/big.png" alt=""/>
+                        </div>
+
+                        <div class="Mysmall">
+                            <div class="prev1">&lt;</div>
+                            <div class="smallMiddle">
+                                <ul class="smallImg">
+                                    <!--还是用大的图片，只是把图片的尺寸设置在css中改一下-->
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/logo.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                    <li><img src="../data/big.png" alt=""/></li>
+                                </ul>
+                            </div>
+                            <div class="next1">&gt;</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="mainContentR">
+                    <p class="name">Sports Skirt</p>
+                    <p class="sku">SKU:0055</p>
+                    <P class="avalibility">Availibility:In Stock</P>
+                    <p class="price">$127.99</p>
+                    <div class="intro">
+                        My grandparents have a dog, they have raised him for two years. It has yellow fur,
+                        so I call him little Yellow. Little Yellow recognizes me, because when I come to
+                        visit my grandparents, he won’t shout at me, he will lie down and swing his tail,
+                        letting me to touch him.I like him so much, I will give him a lot of bones to eat.
+                    </div>
+                    <div class="size">
+                        <span class="step">Step-1:Size-</span><input class="inputSize" type="text" placeholder="size"/>
+                        <!--下拉列表选择size-->
+                        <ul class="sizeChoose">
+                            <li>XS号</li>
+                            <li>S号</li>
+                            <li>M号</li>
+                            <li>L号</li>
+                            <li>XL号</li>
+                        </ul>
+                    </div>
+                    <div class="colors clearfix">
+                        <span class="step">Step-2:Color-</span>
+                        <ul class="colorSelect">
+                            <li class="colorCurrent"><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="quantity">
+                        <!--9.选择数量，最大值为1，最小值为9-->
+                        <span class="step">Step-3:Quantity-</span><input type="number" value="1"  min="1" max="9" />
+                    </div>
+                    <button type="button" class="add"></button>
+                    <p class="errorMsg">请选择size！</p>
+
+
+                </div>
+            </div>
+
+
+            <!--tab标签页-->
+
+            <div class="tab2">
+                <ul class="navContent2">
+                    <li class="current2">Description</li>
+                    <li>Rating & Review</li>
+                    <li>Find in Store</li>
+                </ul>
+                <div class="divContent2">
+                    <div class="myDivContent2 divCurrent2">My grandparents have a dog, they have raised him for two years. It has yellow fur,
+                        so I call him little Yellow. Little Yellow recognizes me, because when I come to
+                        visit my grandparents, he won’t shout at me, he will lie down and swing his tail,
+                        letting me to touch him.I like him so much</div>
+                    <div class="myDivContent2">It is my pleasure to be here to have the opportunity for a job interview;</div>
+                    <div class="myDivContent2">my name is tangjing ,i am 21 years old.</div>
+                </div>
+            </div>
+
+
+            <div class="bg"></div>
+
+            <div class="singup">
+                <span>Sing Up For ACS Emails:</span>
+                <input type="email" placeholder="enter your email" class="enterEmail"/>
+                <input type="button" class="enter" value="Sign Up"/>
+                <span class="emailError">邮箱为空或者邮件格式不正确！</span>
+            </div>
+
+
+
+            <!--底部-->
+            <footer class="myfoot">
+                <div class="someLink clearfix">
+                    <div class="oneLink">
+                        <dl>
+                            <dt>our office</dt>
+                        </dl>
+                        <dd>
+                        <dt><a href="">11</a></dt>
+                        <dt><a href="">111</a></dt>
+                        <dt><a href="">111</a></dt>
+                        <dt><a href="">1</a></dt>
+                        <dt><a href="">1111</a></dt>
+                        <dt><a href="">1111</a></dt>
+                        </dd>
+                    </div>
+                    <div class="oneLink">
+                        <dl>
+                            <dt>shipping info</dt>
+                        </dl>
+                        <dd>
+                        <dt><a href="">11</a></dt>
+                        <dt><a href="">111</a></dt>
+                        <dt><a href="">111</a></dt>
+                        <dt><a href="">1</a></dt>
+                        <dt><a href="">1111</a></dt>
+                        <dt><a href="">1111</a></dt>
+                        </dd>
+                    </div>
+                    <div class="oneLink">
+                        <dl>
+                            <dt>customer service</dt>
+                        </dl>
+                        <dd>
+                        <dt><a href="">11</a></dt>
+                        <dt><a href="">111</a></dt>
+                        <dt><a href="">111</a></dt>
+                        <dt><a href="">1</a></dt>
+                        <dt><a href="">1111</a></dt>
+                        <dt><a href="">1111</a></dt>
+                        </dd>
+                    </div>
+                    <div class="oneLink">
+                        <dl>
+                            <dt>privacy & legal</dt>
+                        </dl>
+                        <dd>
+                        <dt><a href="">11</a></dt>
+                        <dt><a href="">111</a></dt>
+                        <dt><a href="">111</a></dt>
+                        <dt><a href="">1</a></dt>
+                        <dt><a href="">1111</a></dt>
+                        <dt><a href="">1111</a></dt>
+                        </dd>
+                    </div>
+                    <div class="oneLink">
+                        <dl>
+                            <dt>ouroffice</dt>
+                        </dl>
+                        <dd>
+                        <dt><a href="">1111</a></dt>
+                        </dd>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <ul class="clearfix">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">site Map</a></li>
+                        <li><a href="">Store Locator</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                    <p>(c) 2013 AAXIS Commerce</p>
+                </div>
+            </footer>
+        </div>
+
+
+    </div>
+</body>
+</html>
