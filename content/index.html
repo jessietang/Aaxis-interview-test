@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础知识复习</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+</head>
+<body>
+    <div class="header-top"></div>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header-content">
+                        <div class="col-md-6">
+                            <div class="logo">
+                                <div class="main-logo">
+                                    <img src="../data/logo.png" alt="logo"/>
+                                </div>
+                                <div class="small-logo">
+                                    <img src="../data/store.png" alt="store logo"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="header-info text-right">
+                                <div class="search-box">
+                                    <input class="search-box-input" type="text" placeholder="Search"/>
+                                    <button class="pdp-btn">Search</button>
+                                </div>
+                                <ul class="header-info-detail">
+                                    <li class="info-list"><a href="">Sing in</a></li>
+                                    <li class="info-list"><a href="">Register</a></li>
+                                    <li class="info-list"><a href="">My Account</a></li>
+                                    <li class="info-list">
+                                        <a href="">
+                                            Language:
+                                        </a>
+                                        <select name="" id="">
+                                            <option value="English">English</option>
+                                            <option value="Chinese">Chinese</option>
+                                            <option value="Japan">Japan</option>
+                                        </select>
+                                    </li>
+                                    <li class="info-list">
+                                        <a href="">
+                                            Country:
+                                        </a>
+                                        <select name="" id="">
+                                            <option value="US">US</option>
+                                            <option value="US">US</option>
+                                            <option value="US">US</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                                <ul class="cart-content">
+                                    <li class="cart-content-list"><a href="">Checkout</a></li>
+                                    <li class="cart-content-list mini-cart-box">
+                                        <a href="">Cart<span class="cart-num">0</span></a>
+                                        <div class="mini-cart">
+                                            <p class="text-right">Total: $<span class="total-price">111</span></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Men Clothing</a></li>
+                    <li class="active"><a href="#">Women Clothing</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Men Shoes
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">jmeter</a></li>
+                            <li><a href="#">EJB</a></li>
+                            <li><a href="#">Jasper Report</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Women Shoes</a></li>
+                    <li><a href="#">Women Shoes</a></li>
+                    <li><a href="#">Kid Clothing</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Kid Shoes
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">jmeter</a></li>
+                            <li><a href="#">EJB</a></li>
+                            <li><a href="#">Jasper Report</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+
+
+
+    <button class="review-btn" data-toggle="modal">预览大图</button>
+    <!--大图预览-->
+    <!--<div class="view-big modal fade" id="myModal">
+        <img src="../data/big.png" alt=""/>
+    </div>-->
+    <!--use bootstrap-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="view-big">
+                    <img src="../data/big.png" alt=""/>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+
+    <div class="pdp-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="pdp-img-show">
+                        <div class="main-img-box">
+                            <img class="bigImg" src="../data/big.png" alt=""/>
+                            <div class="toBig">
+                                <img src="" alt=""/>
+                            </div>
+                        </div>
+                        <div class="detail-img-box">
+                            <div class="prev-btn">&lt;</div>
+                            <ul class="img-box-mid">
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/logo.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                                <li class="list"><img src="../data/big.png" alt=""/></li>
+                            </ul>
+                            <div class="next-btn">&gt;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 about-pro">
+                    <h3 class="pro-name">Sports Skirt</h3>
+                    <p>sku: <span class="sku">0055</span></p>
+                    <p>Availibility: <span>In Stock</span></p>
+                    <h3 class="price">$127.99</h3>
+                    <p class="pro-introduce">My grandparents have a dog, they have raised him for two years. It has yellow fur, so I call him little Yellow. Little Yellow recognizes me, because when I come to visit my grandparents, he won’t shout at me, he will lie down and swing his tail, letting me to touch him.I like him so much, I will give him a lot of bones to eat.</p>
+                    <div class="factor-ctrl size">
+                        <label for="" class="form-inline">Step-1:Size-</label>
+                        <div class="size-choose">
+                            <input type="text" class="size-select"/>
+                            <ul class="size-ul">
+                                <li class="size-list">XS</li>
+                                <li class="size-list">S</li>
+                                <li class="size-list">M</li>
+                                <li class="size-list">L</li>
+                                <li class="size-list">XL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="factor-ctrl color">
+                        <label for="" class="form-inline">Step-2:Color-</label>
+                        <ul class="color-ul">
+                            <li class="color-size colorActive"><a href="#" colorVal="red"></a></li>
+                            <li class="color-size"><a href="#" colorVal="orange"></a></li>
+                            <li class="color-size"><a href="#" colorVal="yellow"></a></li>
+                            <li class="color-size"><a href="#" colorVal="green"></a></li>
+                        </ul>
+                    </div>
+                    <div class="factor-ctrl quantity">
+                        <label for="" class="form-inline">Step-3:Quantity-</label>
+                        <input type="number" class="quantity-box"/>
+                    </div>
+
+                    <button class="add-to-cart"></button>
+                    <p class="has-error form-error">please choose size or number!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="pdp-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Description</a></li>
+                        <li><a href="#">Rating & Review</a></li>
+                        <li><a href="#">Find in Store</a></li>
+                    </ul>
+                    <div class="nav-content">
+                        <div class="nav-content-list navContentCurrent">111</div>
+                        <div class="nav-content-list">222</div>
+                        <div class="nav-content-list">333</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="spacer-bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                   <form action="" class="email-form">
+                       <div class="email-box">
+                           <label for="" class="text-left">Sing Up For ACS Emails:</label>
+                           <input type="text" class="sign-up-email" placeholder="enter your email"/>
+                           <button type="button" class="pdp-btn">Sign Up</button>
+                       </div>
+                       <p class="has-error">please input right email!!!</p>
+                   </form>
+
+                   <ul class="friend-link">
+                       <li class="link-module">
+                           <ul class="link-module-list">
+                               <li class="link-list"><a href="">OurOffice</a></li>
+                               <li class="link-list"><a href="">111</a></li>
+                               <li class="link-list"><a href="">222</a></li>
+                               <li class="link-list"><a href="">333</a></li>
+                               <li class="link-list"><a href="">444</a></li>
+                               <li class="link-list"><a href="">555</a></li>
+                               <li class="link-list"><a href="">666</a></li>
+                           </ul>
+                       </li>
+                       <li class="link-module">
+                           <ul class="link-module-list">
+                               <li class="link-list"><a href="">OurOffice</a></li>
+                               <li class="link-list"><a href="">111</a></li>
+                               <li class="link-list"><a href="">222</a></li>
+                               <li class="link-list"><a href="">333</a></li>
+                               <li class="link-list"><a href="">444</a></li>
+                               <li class="link-list"><a href="">555</a></li>
+                               <li class="link-list"><a href="">666</a></li>
+                           </ul>
+                       </li>
+                       <li class="link-module">
+                           <ul class="link-module-list">
+                               <li class="link-list"><a href="">OurOffice</a></li>
+                               <li class="link-list"><a href="">111</a></li>
+                               <li class="link-list"><a href="">222</a></li>
+                               <li class="link-list"><a href="">333</a></li>
+                               <li class="link-list"><a href="">444</a></li>
+                               <li class="link-list"><a href="">555</a></li>
+                               <li class="link-list"><a href="">666</a></li>
+                           </ul>
+                       </li>
+                       <li class="link-module">
+                           <ul class="link-module-list">
+                               <li class="link-list"><a href="">OurOffice</a></li>
+                               <li class="link-list"><a href="">111</a></li>
+                               <li class="link-list"><a href="">222</a></li>
+                               <li class="link-list"><a href="">333</a></li>
+                               <li class="link-list"><a href="">444</a></li>
+                               <li class="link-list"><a href="">555</a></li>
+                               <li class="link-list"><a href="">666</a></li>
+                           </ul>
+                       </li>
+                       <li class="link-module">
+                           <ul class="link-module-list">
+                               <li class="link-list"><a href="">OurOffice</a></li>
+                               <li class="link-list"><a href="">111</a></li>
+                               <li class="link-list"><a href="">222</a></li>
+                               <li class="link-list"><a href="">333</a></li>
+                               <li class="link-list"><a href="">444</a></li>
+                               <li class="link-list"><a href="">555</a></li>
+                               <li class="link-list"><a href="">666</a></li>
+                           </ul>
+                       </li>
+                   </ul>
+
+                   <ul class="about-link">
+                       <li class="about-link-list"><a href="">Home</a></li>
+                       <li class="about-link-list"><a href="">Site Map</a></li>
+                       <li class="about-link-list"><a href="">Store Locator</a></li>
+                       <li class="about-link-list"><a href="">About Us</a></li>
+                       <li class="about-link-list"><a href="">Contact Us</a></li>
+                   </ul>
+
+                   <p class="copy-right">(c) 2013 AAXIS Commerce</p>
+
+
+               </div>
+           </div>
+       </div>
+    </footer>
+
+    <script type="text/javascript" src="../js/lib/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="../js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>
