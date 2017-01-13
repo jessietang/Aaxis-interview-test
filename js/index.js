@@ -183,12 +183,13 @@ $(function(){
         }
     });
 
-    window.localStorage.clear();
+
+    //12.当没有size被选中时，点击add to cart按钮时，在主导航下面出现错误信息
+    //window.localStorage.clear();
     var count = 0;
     var totalPrice = 0;
     $('.cart-num').text(count);
     $('.total-price').text(totalPrice);
-    //12.当没有size被选中时，点击add to cart按钮时，在主导航下面出现错误信息
     $(document).on('click','.add-to-cart',function(){
         var _this = $(this);
         $('.form-error').hide();
