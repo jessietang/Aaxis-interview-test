@@ -216,7 +216,8 @@ $(function(){
             data.size = $('.about-pro .size-select').val();
             data.color = $('.about-pro .color-ul .colorActive a').attr("colorVal");
             data.quantity = $('.about-pro .quantity-box').val();
-
+            // key 和 value 都必须为字符串，换言之，web Storage的API只能操作字符串,所以下面要把对象转换成字符串
+            // 当从Web Storage中读取时，可以通过JSON的parse()方法再转换成JSON对象
             var strObj = JSON.stringify(data);// notice
             localStorage.setItem(data.sku,strObj);
             console.log(localStorage.getItem(data.sku));
